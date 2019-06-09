@@ -1,14 +1,13 @@
 #include<stdio.h>
 void main()
 {
-int A,B,C
-printf(“enter the number”);
+int A,B,C;
 scanf(“%d %d %d,&A,&B,&C);
 if(A>=B&&A>=C)
-printf(“%d is the largest number”);
+printf(“%d”,A);
 if(B>=A&&B>=C)
-printf(“%d is a the largest number”);
+printf(“%d”,B);
 if(C>=A&&C>=B)
-printf(“%d is the largest number”);
+printf(“%d”,C);
 return 0;
 }
